@@ -3,12 +3,5 @@
 // This file will be compiled into app.js and will not be minified.
 // Feel free with using ES6 here.
 
-( ($) => {
-  'use strict';
-
-  // When DOM is ready
-  $(() => {
-
-  });
-
-})(jQuery);
+import './modules/bg-video';
+import './modules/mob-menu';

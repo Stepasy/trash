@@ -1,0 +1,117 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    flex-wrap: nowrap;
+    @media (max-width: 640px) {
+        height: 120px;
+    }
+    a{
+        text-decoration: none;
+    }
+    &-logo{
+        z-index: 6;
+        position: relative;
+        @media (max-width: 640px) {
+            height: 100%;
+            background-color: #043355;
+            width: 100%;
+            max-width: 400px;
+            min-width: 210px;
+            padding-top: 2px;
+            padding-left: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &-nav{
+        z-index: 5;
+    }
+    .nav{
+        @extend %listreset;
+        display: flex;
+        flex-direction: row;
+        li{
+            margin-left: 54px;
+            a{
+                color: #fff;
+                position: relative;
+                @include animate(opacity);
+                &:after{
+                    display: flex;
+                    justify-content: center;
+                    @include animate(opacity);
+                    content: '';
+                    margin-top: 14px;
+                    position: absolute;
+                    color: #fff;
+                    background: #fff;
+                    height: 1px;
+                    width: 100%;
+                    opacity: 0;
+                }
+                &:hover{
+                    &:after{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        @media(max-width: 1049px){
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            text-align: center;
+            height: 100vh;
+            width: 100vw;
+            top: 0px;
+            left: 0;
+            background-color: #043355;
+            opacity: 0.6;
+            z-index: 1;
+            padding-top: 120px;
+            @media (max-width: 640px) {
+                height: calc(100vh - 120px);
+                top: 120px;
+                padding-top: 0;
+            }
+            li{
+                margin: 25px 0;
+                width: 100%;
+                a{
+                    display: block;
+                    width: 100%;
+                    &:after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .opened{
+        display: flex;
+        z-index: 5;
+
+    }
+    &-menu-holder{
+        display: none;
+        z-index: 5;
+        @media(max-width: 1049px){
+            display: block;
+        }
+        @media (max-width: 640px) {
+            padding-top: 5px;
+            padding-left: 12px;
+            height: 100%;
+            width: 100%;
+            max-width: 240px;
+            padding-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+    }
+}
