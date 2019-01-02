@@ -1,41 +1,60 @@
-.opener{
+.opener {
     width: 52px;
     height: 30px;
     position: relative;
     cursor: pointer;
     display: inline-block;
-  }
-  .opener span{
-    background-color:#000;
-    position: absolute;
-    border-radius: 2px;
-    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
-    width:100%;
-    height: 4px;
-    transition-duration: 500ms
-  }
-  .opener span:nth-child(1){
-    top:0px;
-    left: 0px;
-  }
-  .opener span:nth-child(2){
-    top:13px;
-    left: 0px;
-  }
-  .opener span:nth-child(3){
-    bottom:0px;
-    left: 0px;
-  }
-  .clickopener span:nth-child(1){
-    transform: rotate(45deg);
-    top: 13px;
-  
-  }
-  .clickopener span:nth-child(2){
-    transform: scale(.1);
-  
-  }
-  .clickopener span:nth-child(3){
-    transform: rotate(-45deg);
-    top: 13px;
-  }
+}
+
+.opener {
+    span {
+        background-color: #000;
+        position: absolute;
+        border-radius: 2px;
+        transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+        width: 100%;
+        height: 4px;
+        transition-duration: 500ms
+    }
+}
+
+.opener {
+    span:nth-child(1) {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.opener {
+    span:nth-child(2) {
+        top: 13px;
+        left: 0px;
+    }
+}
+
+.opener {
+    span:nth-child(3) {
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+.clickopener {
+    span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 13px;
+    }
+}
+
+.clickopener {
+    span:nth-child(2) {
+        transform: scale(.1);
+    }
+}
+
+.clickopener {
+    span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 13px;
+    }
+}

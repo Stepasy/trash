@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 72" width="37" height="72">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.647   0 0 0 0 0.647   0 0 0 0 0.647   0 0 0 1 0" /> </filter>
+		<image width="76" height="149" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NiAxNDkiIHdpZHRoPSI3NiIgaGVpZ2h0PSIxNDkiPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6IG5vbmU7c3Ryb2tlOiAjMDAwMDAwIH0gCgkJLnNocDEgeyBmaWxsOiAjMDAwMDAwIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik03NS4xMyAxNDguMjZMMS40NyA3NC42MUw3NS4xMyAwLjk1TTc1LjY3IDczLjQ0TDUwLjY3IDczLjQ0IiAvPgoJCTxwYXRoIGlkPSJQYXRoIDIiIGNsYXNzPSJzaHAxIiBkPSJNNDguNTksNzMuNDRsOS4xNiw4LjUybDEuNDIsLTEuNTNsLTcuNTMsLTYuOTlsNy41MywtNi45OWwtMS40MiwtMS41MnoiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Left Arrow" style="filter: url(#flt1)" href="#img1" transform="matrix(1.016,0,0,1.008,0,0)"/>
+</svg>

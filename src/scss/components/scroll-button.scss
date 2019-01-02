@@ -1,0 +1,18 @@
+.button-holder {
+    z-index: 6;
+    align-self: flex-end;
+    .scroll-down {
+        margin: 0 auto;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 55px;
+        height: 55px;
+        border: 1px solid #fff;
+        .fa-arrow-down {
+            z-index: 6;
+            color: #fff;
+        }
+    }
+}

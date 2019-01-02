@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" width="13" height="9">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.102   0 0 0 0 0.196   0 0 0 0 0.333   0 0 0 1 0" /> </filter>
+		<image width="27" height="17" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAxNyIgd2lkdGg9IjI3IiBoZWlnaHQ9IjE3Ij4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiBub25lO3N0cm9rZTogIzAwMDAwMCB9IAoJCS5zaHAxIHsgZmlsbDogIzAwMDAwMCB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiPgoJCTxwYXRoIGlkPSJQYXRoIDEiIGNsYXNzPSJzaHAwIiBkPSJNMi4wOCw4LjQ4aDI1IiAvPgoJCTxwYXRoIGlkPSJQYXRoIDIiIGNsYXNzPSJzaHAxIiBkPSJNOS4xNiwtMC4wNGwtOS4xNiw4LjUybDkuMTYsOC41MmwxLjQyLC0xLjUzbC03LjUzLC02Ljk5bDcuNTMsLTYuOTl6IiAvPgoJPC9nPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Vector Smart Object" style="filter: url(#flt1)" href="#img1" transform="matrix(-1,0,0,-1.1,13,9)"/>
+</svg>
